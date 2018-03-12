@@ -14,8 +14,8 @@ public class MapGenerator
     private static final String GREY = "\u001B[90m";
 
     private static char color = 'a';
-    private static final int COL = 10;
-    private static final int ROW = 10;
+    private static final int COL = 20;
+    private static final int ROW = 20;
     private static final int DIVIDE_SIZE_LIMIT = 6;//this will allow buffer of two space when choosing divider, 01|23|45
     private static final int MAP_DIVIDE = 5;//it will attempt to make 2^MAP_DIVIDE rooms
     private static int NUMBER_OF_ROOMS = 1;
