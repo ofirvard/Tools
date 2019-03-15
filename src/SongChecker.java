@@ -48,10 +48,10 @@ public class SongChecker
 
         if (name.contains("(") || name.contains(")") || !name.contains(" - "))
         {
-            System.out.println(name);
+//            System.out.println(name);
             name = name.replace("(", "");
             name = name.replace(")", "");
-            System.out.println(name);
+//            System.out.println(name);
         }
 
         if (name.contains("feat") || name.contains("Feat") || name.contains("feat.") || name.contains("Feat.") || name.contains("ft.") || name.contains("Ft."))
@@ -73,9 +73,7 @@ public class SongChecker
     {
         File newFile = new File(LOCATION + "\\" + newName);
 
-        if (file.renameTo(newFile))
-            System.out.println("rename worked");
-        else
+        if (!file.renameTo(newFile))
             System.out.println("rename failed");
     }
 }
