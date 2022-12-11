@@ -22,8 +22,8 @@ public class Map2Generator
 
     public int[][] makeMap()
     {
-        setCountries(60);
-        setWater(10);
+        setCountries(20);
+        setWater(20);
         printMap(map);
 
         while (!done())

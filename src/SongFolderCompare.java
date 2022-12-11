@@ -6,8 +6,8 @@ public class SongFolderCompare
 {
     public static void main(String[] args)
     {
-        File folder1 = new File("D:\\Music");
-        File folder2 = new File("D:\\Downloads\\Music");
+        File folder1 = new File("C:\\Users\\ofirv\\Downloads\\New folder (3)\\Music");
+        File folder2 = new File("C:\\Users\\ofirv\\Downloads\\Music");
 
         ArrayList<String> songs1, songs2;
 

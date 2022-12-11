@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Authentication">
+    <CLASSES>
+      <root url="jar://E:/dist/Authentication.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
